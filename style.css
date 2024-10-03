@@ -1,0 +1,72 @@
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+}
+
+.left-panel, .right-panel {
+    padding: 20px;
+}
+
+.left-panel {
+    width: 40%;
+    border-right: 1px solid #ccc;
+}
+
+.right-panel {
+    width: 60%;
+    text-align: center;
+}
+
+.item {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.item input {
+    margin-right: 10px;
+    padding: 5px;
+}
+
+.remove-btn, #add-item-btn, #draw-btn, #multi-draw-btn, #view-history-btn {
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.remove-btn {
+    width: 30px;
+}
+
+#add-item-btn {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+}
+
+.validation-message {
+    margin-top: 10px;
+    color: red;
+}
+
+#draw-result, #multi-draw-results, #draw-history {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.multiple-draw {
+    margin-top: 20px;
+}
+
+#multi-draw-count {
+    width: 60px;
+    padding: 5px;
+    margin-left: 10px;
+}
